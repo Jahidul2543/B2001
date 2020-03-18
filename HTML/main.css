@@ -1,0 +1,7 @@
+
+ body {background-color: powderblue;}
+ p{background-color: red;}
+ /*p    {color: red;}*/
+.background--skyBlue {
+  background-color: rgb(100, 200, 219);
+}
