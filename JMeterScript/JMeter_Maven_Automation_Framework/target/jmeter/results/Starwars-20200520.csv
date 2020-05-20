@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1590017659475,680,People endpoint,200,OK,Scenario 1 1-2,text,true,,920,126,5,5,https://swapi.dev/api/people/2/,679,0,508
+1590017659320,835,People endpoint,200,OK,Scenario 1 1-1,text,true,,976,126,5,5,https://swapi.dev/api/people/1/,834,0,663
+1590017659676,577,People endpoint,200,OK,Scenario 1 1-3,text,true,,922,126,3,3,https://swapi.dev/api/people/3/,577,0,462
+1590017659876,563,People endpoint,200,OK,Scenario 1 1-4,text,false,"Value expected to match regexp 'Darth Vaderr', but it did not match: 'Darth Vader'",870,126,2,2,https://swapi.dev/api/people/4/,563,0,449
+1590017660075,545,People endpoint,200,OK,Scenario 1 1-5,text,true,,868,126,1,1,https://swapi.dev/api/people/5/,545,0,434
